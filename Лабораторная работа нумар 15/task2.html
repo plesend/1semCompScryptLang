@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма регистрации студента</title>
+    <style>
+      input,
+      select {
+        width: 150px;
+        margin-left: 20px;
+      }
+      label {
+        display: inline-block;
+        width: 200px;
+      }
+      option {
+        text-align: center;
+      }
+      input[type="checkbox"] {
+        width: auto;
+      }
+      .label {
+        width: auto;
+      }
+      form {
+        background-color: indigo;
+        padding: 20px;
+        width: 400px;
+        color: white;
+      }
+      h2 {
+        margin-left: 110px;
+        color: white;
+        margin-top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <form>
+      <h2>Данные студента</h2>
+      <label for="name">Имя студента:</label>
+      <input type="text" placeholder="обязательно заполнить" required id="name"/><br /><br />
+
+      <label for="lastname">Отчество студента:</label>
+      <input id="lastname" type="text" placeholder="обязательно заполнить" required/><br /><br />
+
+      <label for="surname">Фамилия студента:</label>
+      <input id="surname" type="text" placeholder="обязательно заполнить" required/><br><br>
+
+      <label for="mail">Адрес почты:</label>
+      <input id="mail" type="email" /><br /><br />
+
+      <label for="phone">Контактный номер:</label>
+      <input id="phone" type="tel" /><br /><br />
+
+      <label for="faculty">Факультет:</label>
+      <select id="faculty" name="facult">
+        <option></option>
+        <option value="faculty1">ФИТ</option>
+        <option value="faculty2">ХТИТ</option>
+        <option value="faculty3">ТОВ</option>
+      </select>
+      <br><br>
+      <label for="group">Группа:</label>
+      <select id="group">
+        <option></option>
+        <option value="group1">1</option>
+        <option value="group2">2</option>
+        <option value="group3">3</option>
+        <option value="group4">4</option>
+        <option value="group5">5</option>
+        <option value="group6">6</option>
+      </select>
+      <br /><br />
+      <label for="course">Курс:</label>
+      <select id="course">
+        <option></option>
+        <option value="course1">1</option>
+        <option value="course2">2</option>
+        <option value="course3">3</option>
+        <option value="course4">4</option>
+      </select>
+      <br /><br />
+      <label for="social">Ваш пол</label>
+      <input type="checkbox" class="checkbox" id="vk" /><label for="man" class="label">мужской</label>
+      <input type="checkbox" class="checkbox" id="facebook" /><label for="woman" class="label">женский</label>
+      <br><br>
+      <input type="submit" value="Отправить" />
+    </form>
+
+    <footer></footer>
+
+    <script>
+      let form = document.forms[0];
+      let footerochick = document.getElementsByTagName("footer")[0];
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        footerochick.innerHTML = '';
+        
+        for (let i = 0; i < form.length; i++) {
+          if (
+            form[i].tagName == "INPUT" &&
+            form[i].type != "submit" &&
+            form[i].type != "checkbox"
+          ) {
+            if (form[i].value != "") {
+              let newDiv = document.createElement("div");
+              newDiv.innerHTML = document.querySelector('label[for="' + form[i].id + '"]').textContent + " " + form[i].value;
+              footerochick.appendChild(newDiv);
+            }
+          }
+
+          if (form[i].tagName == "SELECT") {
+            if (form[i].selectedOptions[0].textContent != "") {
+              let newDiv = document.createElement("div");
+              newDiv.innerHTML = document.querySelector('label[for="' + form[i].id + '"]').textContent + " " + form[i].selectedOptions[0].textContent;
+              footerochick.appendChild(newDiv);
+            }
+          }
+        }
+
+        let newDiv = document.createElement("div");
+        let txt = "Ваш пол ";
+        for (let i = 0; i < form.length; i++) {
+          if (form[i].tagName == "INPUT" && form[i].type == "checkbox") {
+            if (form[i].checked) {
+              txt += document.querySelector('label[for="' + form[i].id + '"]').textContent + " ";
+            }
+          }
+        }
+        if (txt != "Ваш пол ") {
+          newDiv.innerHTML = txt;
+          footerochick.appendChild(newDiv);
+        }
+      });
+    </script>
+  </body>
+</html>

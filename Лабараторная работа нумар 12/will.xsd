@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="block">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="titlevbs" type="xs:string"/>
+      <xs:element name="titleniigo" type="xs:string"/>
+      <xs:element name="titleln" type="xs:string"/>
+      <xs:element name="titlewxs" type="xs:string"/>
+      <xs:element name="titlemmj" type="xs:string"/>
+      <xs:element name="names" type="xs:string"/>
+      <xs:element name="bandinfo" type="xs:string"/>
+      <xs:element name="sekai" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

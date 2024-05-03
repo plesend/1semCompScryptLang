@@ -1,0 +1,143 @@
+@import "_mixins.scss";
+@import "_perem.scss";
+
+ul {
+    li {
+        display: inline;
+        float: left;
+        margin-left: 50px;
+        background-color: $bg;
+    }
+    a {
+        display: inline-block;
+        border: 2px solid $logo;
+        padding: 5px 40px;
+        text-decoration: none;
+        color: $logo;
+    }
+}
+
+header {
+    background: url(../photos/backa.jpg) 595%;
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo {
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        border: solid 2px $bg;
+    }
+}
+
+.menu {
+    margin-top: 38px;
+    margin-left: 300px;
+}
+
+.bigmenu{
+    display: flex;
+    justify-content: space-between;
+    width:100%
+}
+
+.cheng, .xiaoshi {
+    @include mixin-flex;
+    background-color: $back;
+    color: $bg;
+    margin-top: 5px;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: justify;
+}
+
+.text1,
+.text2,
+.text3 {
+    @include mixin-flex;
+    width: 250px;
+    height: fit-content;
+    border: 2px solid $logo;
+    padding: 10px;
+}
+
+.block{
+    display: block;
+    float: left;
+    width: 69%;
+}
+
+.images{
+    @include flex-space;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.images img {
+    height: 130px;
+    width: 130px;
+}
+
+.rightmenu{
+    display: block;
+    width:30%;
+}
+  
+.form1{
+    background-color: $bg;
+    width: 100%;
+    height: 220px;
+    font-size: 1.1em;   
+    color: rgb(131, 14, 14);
+    margin-bottom:10px;
+}
+
+label {
+    @extend %form-extend;
+}
+
+.reg {
+    text-align: center;
+    margin: 10px;
+}
+
+.one {
+    @include flex-space;
+    border: 2px $bg solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.one div {
+    display: inline-block;
+    margin-left: 5px;
+    border: 2px solid $logo;
+    padding: 10px;
+    text-align: justify;
+}
+
+.one img {
+    width: 100px;
+    height: 100px;
+}
+
+.cont {
+    background-color: $back;
+    color: $logo;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: textstyle($header-font-size);
+}
+
+

@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-rows: 150px 1fr 100px;
+    height: 100vh;
+    grid-gap: 5px;
+    grid-template-areas: 
+                "a b b"
+                "a b2 c2"
+                "d d d";
+}
+.grid div {
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}

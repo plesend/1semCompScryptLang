@@ -1,0 +1,44 @@
+<svg versiob="1.1" widt="1280" height="724"
+    viewBOx="0 0 1280 1024"
+    baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ev="http://www/w3.org/2001/xml-events">
+
+    <defs>
+        <path id="text" d="M100,100 C300,0 500,200 700,100 S900,300 1100,100"/>
+    </defs>
+    <use xlink:href="#textpath"/>
+
+    <text x="10" y="0"> 
+        <textPath xlink:href="#text" stroke="pink" fill="lightblue" font-size="36px">
+            まだ溶けきれずに残った
+        </textPath>
+    </text>
+
+    <circle cy="250" cx="400" r="100" fill="blue"/>
+    <rect x="520" y="150" width="250" height="200" fill="red"/> 
+    <ellipse cx="930" cy="250" ry="100" rx="120" fill="green"/>
+    <polygon points="1050,350 1150,150 1250,350" fill="yellow"/>
+    <polyline points="280,370, 670,370 600,390 1250,390" stroke="purple" stroke-width="3" fill="none"/>
+
+    <defs>
+        <path id="heart" d="M200 30.976c0 8.434-3.635 16.019-9.423 21.274h0.048l-31.25 31.25c-3.125 3.125-6.25 6.25-9.375 6.25s-6.25-3.125-9.375-6.25l-31.202-31.25c-5.788-5.255-9.423-12.84-9.423-21.274 0-15.865 12.861-28.726 28.726-28.726 8.434 0 16.019 3.635 21.274 9.423 5.255-5.788 12.84-9.423 21.274-9.423 15.865 0 28.726 12.861 28.726 28.726z"/>
+    </defs>
+
+    <use xlink:href="#heart" x="650" y="60" fill="black" stroke="red" transform="skewY(30)"/>
+    <use xlink:href="#heart" x="400" y="800" fill="pink" transform="scale(1 0.5)"/>
+    <use xlink:href="#heart" x="270" y="400" fill="violet" stroke="blue" transform="skewX(30)"/>
+
+    <defs>
+        <path id="camera" d="M29.688 59.375c0 11.218 9.094 20.313 20.313 20.313s20.313-9.094 20.313-20.313-9.094-20.313-20.313-20.313-20.313 9.094-20.313 20.313zM93.75 25h-21.875c-1.563-6.25-3.125-12.5-9.375-12.5h-25c-6.25 0-7.813 6.25-9.375 12.5h-21.875c-3.438 0-6.25 2.813-6.25 6.25v56.25c0 3.438 2.813 6.25 6.25 6.25h87.5c3.438 0 6.25-2.813 6.25-6.25v-56.25c0-3.438-2.813-6.25-6.25-6.25zM50 87.109c-15.317 0-27.734-12.417-27.734-27.734 0-15.317 12.417-27.734 27.734-27.734 15.318 0 27.734 12.417 27.734 27.734 0 15.318-12.417 27.734-27.734 27.734zM93.75 43.75h-12.5v-6.25h12.5v6.25z"/>
+    </defs>
+
+    <use xlink:href="#camera" x="750" y="100" fill="yellow" stroke="red" transform="scale(1 0.5)"/>
+    <use xlink:href="#camera" x="1000" y="20" fill="none" stroke="red" transform="skewX(45)"/>
+    <use xlink:href="#camera" x="180" y="400" fill="none" stroke="red" transform="skewY(-45)"/>
+    <use xlink:href="#camera" x="180" y="400" fill="lightblue" stroke="black" transform="skewY(10)"/>
+    <use xlink:href="#camera" x="1200" y="100" fill="green" stroke="black" transform="scale(0.5 0.5)"/>
+
+
+</svg>

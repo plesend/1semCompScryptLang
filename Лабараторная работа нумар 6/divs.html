@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <style>
+        div {
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .first {
+            background-image: linear-gradient(to top, red, blue);
+        }
+        .second {
+            background-image: repeating-linear-gradient(45deg, red, red 5px, blue 5px, blue 10px);
+        }
+        .third {
+            background-image: radial-gradient(yellow, green);
+        }
+        .fourth {
+            background-image: repeating-radial-gradient(green, green 6px, yellow 6px, yellow 12px);
+        }
+        .fifth {
+            background-blend-mode: color-dodge;
+            background: linear-gradient(blue, purple),
+            repeating-radial-gradient(yellow, green, rgba(255, 255, 255, 0));
+        }
+        .sixth {
+            background-blend-mode: soft-light;
+            background: linear-gradient(black 15%, white, white 72%, blue 85%, purple 92%),
+                        linear-gradient(90deg, yellow, green, rgba(255, 255, 255, 0));
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="third"></div>
+    <div class="fourth"></div>
+    <div class="fifth"></div>
+    <div class="sixth"></div>
+</body>
+</html>

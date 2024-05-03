@@ -1,0 +1,38 @@
+  .navbar {
+    overflow: hidden;
+    background-color: yellow;
+    border: 2px solid purple;
+    color: purple;
+    width: 200px;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    color: purple;
+    padding: 14px 16px;
+    background-color: yellow;
+  }
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    width: 150px;
+    border: dotted black 3px;
+    border-bottom: none;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: dotted black 3px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+

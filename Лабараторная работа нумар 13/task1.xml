@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<sekai>
+<block>
+    <title>Vivid Bad Squad</title>
+    <names>Aoyagi Toya, Shinonome Akito, Azusawa Kohane, Shiraishi An</names>
+    <bandinfo>Vivid BAD SQUAD, often abbreviated to VBS and Vivibasu (ビビバス), is a unit of street musicians formed together with the common goal of surpassing the legendary event RAD WEEKEND.</bandinfo>
+</block>
+
+<block>
+    <title>Nightcord at 25</title>
+    <names>Akiyama Mizuki, Shinonome Ena, Asahina Mafuyu, Yoisaki Kanade</names>
+    <bandinfo>25-ji, Nightcord de., often abbreviated as 25-ji, N25, and Niigo (ニーゴ), is an underground music circle that makes songs online at 25:00, (1 AM).</bandinfo>
+</block>
+
+<block>
+    <title>Leo/need</title>
+    <names>Tenma Saki, Hinomori Shiho, Hoshino Ichika, Mochizuki Honami</names>
+    <bandinfo>Leo/need, often abbreviated as L/n and Leoni (レオニ), is an all-female band consisting of four childhood friends.</bandinfo>
+</block>
+
+<block>
+    <title>Wonderlands X Showtime</title>
+    <names>Tenma Tsukasa, Kamishiro Rui, Kusanagi Nene, Otori Emu</names>
+    <bandinfo>Wonderlands x Showtime, often abbreviated to WxS and Wandasho (ワンダショ, Wondershow), is a musical show unit formed by four part-time actors who perform on the Wonder Stage in Phoenix Wonderland.</bandinfo>
+</block>
+
+<block>
+    <title>More More Jump!</title>
+    <names>Hinomori Shizuku, Hanasato Minori, Momoi Airi, Kiritani Haruka</names>
+    <bandinfo>MORE MORE JUMP!, often abbreviated to MMJ! and Momojan (モモジャン), is an all-female idol group consisting of three once-retired idols and a passionate girl aiming to be an idol.</bandinfo>
+</block>
+</sekai>

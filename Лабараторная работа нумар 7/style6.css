@@ -1,0 +1,114 @@
+body {
+    overflow: hidden;
+}
+img{
+    width: 300px;
+    height: 190px;
+}
+.pic1 {
+    animation: pic1 3s linear infinite;
+    position: relative;
+}
+.pic2 {
+    animation: pic2 3s linear infinite;
+    position: relative;
+}
+.pic3 {
+    animation: pic3 3s linear infinite;
+    position: relative;
+}
+.pic4 {
+    animation: pic4 3s linear infinite;
+    position: relative;
+}
+.pic5 {
+    animation: pic5 5s linear infinite;
+    position: relative;
+}
+@keyframes pic1{
+    0% {
+        left: 0; right: 0;
+    }
+    50% {
+        left: 200px; right: 0;
+    }
+    100% {
+        right: 200px; left: 0;
+    }
+}
+@keyframes pic2{
+    0% {
+        left: 0; 
+        right: 0;
+        transform: skew(0deg);
+    }
+    50% {
+        left: 200px;
+        right: 0;
+        transform: skew(15deg);
+    }
+    100% {
+        left: 0; 
+        right: 0;
+        transform: skew(0deg);
+    }    
+}
+
+@keyframes pic3{
+    0% {
+        top: 0;
+   }
+    50% {
+        top: 50px;
+    }
+    100% {
+        top: 0;
+    } 
+}
+    @keyframes pic4{
+        0% {
+            transform: translateX(-1000px);
+       }
+        50% {
+            transform: translateX(500px);
+        }
+        100% {
+            transform: translateX(2000px);
+        } 
+    }
+@keyframes pic5{
+    0% {
+        left: 0;
+        top: 0;
+   }
+    25% {
+        left: 100px;
+        top: 0;
+    }
+    50% {
+        left: 100px;
+        top: 100px;
+    }    
+    75% {
+        left: 0;
+        top: 100px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+h1 {
+    animation: h 5s linear infinite;
+}
+@keyframes h {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 80%;
+    }
+    100% {
+        opacity: 0;
+    }
+}

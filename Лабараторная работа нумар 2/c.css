@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Monotype Corsiva;
+    color: purple;
+}
+
+first {
+    font-family: 'Times New Roman';
+    font-size: 18pt;
+    color: red;
+}
+
+second {
+    font-family: 'Times New Roman';
+    font-size: 20pt;
+    color: yellow;
+}
+
+third {
+    font-family: 'Times New Roman';
+    font-size: 22pt;
+    color: green;
+}

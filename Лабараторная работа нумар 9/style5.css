@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    grid-template-rows: 200px 200px 20px 1fr;
+    height: 100vh;
+    grid-gap: 10px;
+}
+/*.nav {
+    display: grid;
+    grid-template-columns: 85px 85px 85px 85px 85px;
+    grid-template-rows: 40px;
+}
+.nav div {
+    border: 2px orange solid;
+    margin: 2px;
+    text-align: center;
+    padding-top: 4px;
+}*/
+.links {
+    text-align: center;
+    grid-column: span 2;
+}
+a {
+    border: 2px orange solid;
+}

@@ -1,0 +1,25 @@
+$back: lightgrey;
+$logo: grey;
+$logobg: green;
+$bg: white;
+$setfontsize: 1em;
+$header-font-size: 1.1em;
+
+%form-extend{
+    display: inline-block;
+    width: 8em;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-right: 7px;
+    margin-left: 10px;
+}
+
+@function textstyle($header-font-size) {
+    @if $header-font-size > 1.1em {
+        @return 1em;
+    } 
+    @else {
+        @return 0.9em;
+    }
+}

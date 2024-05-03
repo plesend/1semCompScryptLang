@@ -1,0 +1,27 @@
+div {
+    border: 5px purple solid;
+    height: 300px;
+    width: 300px;
+    font-size: 16.6px;
+    word-break: break-all;
+    animation: div 5s linear infinite;
+    position: relative;
+}
+@keyframes div {
+    0% {
+        color: black;
+    }
+    25% {
+        color: aquamarine;
+    }
+    50% {
+        color: blueviolet;
+    }
+    75% {
+        color: darkseagreen;
+    }
+    100% {
+        color: black;
+    }
+}
+

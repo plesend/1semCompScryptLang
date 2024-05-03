@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE block [
+<!ENTITY vbs "Vivid Bad Squad">
+<!ENTITY niigo "Nightcord at 25">
+<!ENTITY ln "Leo/need">
+<!ENTITY wxs "Wonderlands X Showtime">
+<!ENTITY mmj "More More Jump!">
+
+<!ENTITY vbsnames "Aoyagi Toya, Shinonome Akito, Azusawa Kohane, Shiraishi An">
+<!ENTITY niigonames "Akiyama Mizuki, Shinonome Ena, Asahina Mafuyu, Yoisaki Kanade">
+<!ENTITY lnnames "Tenma Saki, Hinomori Shiho, Hoshino Ichika, Mochizuki Honami">
+<!ENTITY wxsnames "Tenma Tsukasa, Kamishiro Rui, Kusanagi Nene, Otori Emu">
+<!ENTITY mmjnames "Hinomori Shizuku, Hanasato Minori, Momoi Airi, Kiritani Haruka">
+
+<!ENTITY vbsinfo "Vivid BAD SQUAD, often abbreviated to VBS and Vivibasu (ビビバス), is a unit of street musicians formed together with the common goal of surpassing the legendary event RAD WEEKEND.">
+<!ENTITY niigoinfo "25-ji, Nightcord de., often abbreviated as 25-ji, N25, and Niigo (ニーゴ), is an underground music circle that makes songs online at 25:00, (1 AM).">
+<!ENTITY lninfo "Leo/need, often abbreviated as L/n and Leoni (レオニ), is an all-female band consisting of four childhood friends.">
+<!ENTITY wxsinfo "Wonderlands x Showtime, often abbreviated to WxS and Wandasho (ワンダショ, Wondershow), is a musical show unit formed by four part-time actors who perform on the Wonder Stage in Phoenix Wonderland.">
+<!ENTITY mmjinfo "MORE MORE JUMP!, often abbreviated to MMJ! and Momojan (モモジャン), is an all-female idol group consisting of three once-retired idols and a passionate girl aiming to be an idol.">
+]>
+
+<sekai>
+<block>
+    <titlevbs> &vbs; </titlevbs>
+    <names> &vbsnames; </names>
+    <bandinfo> &vbsinfo; </bandinfo>
+</block>
+
+<block>
+    <titleniigo> &niigo; </titleniigo>
+    <names> &niigonames; </names>
+    <bandinfo> &niigoinfo; </bandinfo>
+</block>
+
+<block>
+    <titleln> &ln; </titleln>
+    <names> &lnnames; </names>
+    <bandinfo> &lninfo; </bandinfo>
+</block>
+
+<block>
+    <titlewxs> &wxs; </titlewxs>
+    <names> &wxsnames; </names>
+    <bandinfo> &wxsinfo; </bandinfo>
+</block>
+
+<block>
+    <titlemmj> &mmj; </titlemmj>
+    <names> &mmjnames; </names>
+    <bandinfo> &mmjinfo; </bandinfo>
+</block>
+</sekai>

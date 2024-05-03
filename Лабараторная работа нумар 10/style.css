@@ -1,0 +1,130 @@
+@import url(import.css) (min-width: 768px) and (max-width: 1280px);
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.container div {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+.headh {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    flex-flow: row wrap;
+}
+.sideitem {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 300px;
+}
+.item {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 2 1 300px;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+audio {
+    padding: 12px;
+}
+img {
+    width: 300px;
+    height: 180px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/*2*/
+
+.menu div {
+    border: none;
+}
+
+.menu{
+    display: flex;
+    flex: 1 1 60%;
+    border: none;
+}
+.menu_item{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 30%;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+}
+#ch{
+    opacity: 0;
+  }
+h3 {
+    text-align: center;
+}
+
+@media (max-width: 580px){
+    .menu{
+        border: none;
+        position: relative;
+    }
+    .menu_item{
+        display: block;
+        position: fixed;
+        width: 100%;
+        left: -110%;
+        border: none;
+    }
+    .menu_btn{
+        position: relative;
+    }
+    .menu_btn > span::after{
+        content: "\2261";
+        
+    }
+    #ch:checked~ .menu_item{
+        position: static;
+    }
+    #ch:checked~ .menu_item > label{
+        display: block;
+        margin-top: 10px;
+    }
+    #ch:checked~ .menu{
+        visibility: visible;
+        left: -2%;
+    }
+    #ch:checked~ .menu_btn > span::after{
+        content: "\2573";
+    }
+}
+/*3*/
+.begin {
+    width: 100%;
+    border: 1px black solid;
+}
+.block {
+    width: 100%;
+    text-align: center;
+}
+.block img {
+    border: 1px solid black;
+    padding: 10px;
+}
+img {
+    width: 20%;
+    display: flex;
+    flex: 1 1 100px;
+}
+@media (max-width: 480px){
+    .block {
+        flex-flow: column;
+    }
+    img{
+        width: 100%;
+    }
+}
+    

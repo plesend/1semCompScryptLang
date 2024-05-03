@@ -1,0 +1,51 @@
+div {
+    color: blue;
+    font-family: serif;
+    font-size:larger;
+}
+
+span {
+    color:brown;
+    font-family: monospace;
+    font-size:smaller ;
+    text-decoration: line-through;
+}
+
+* {
+    background-color: #BDB76B;
+}
+
+.intro h3 {
+    color: yellow;
+}
+
+div>h2 {
+    color: rgb(0, 250, 154);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Monotype Corsiva;
+    color: purple;
+}
+
+.first {
+    font-family: 'Times New Roman';
+    font-size: 18pt;
+    color: red;
+}
+
+.second {
+    font-family: 'Times New Roman';
+    font-size: 20pt;
+    color: yellow;
+}
+
+.third {
+    font-family: 'Times New Roman';
+    font-size: 22pt;
+    color: green;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style2.xsl"?>
+
+<attestation>
+<block>
+    <person>Райан Гослинг</person>
+    <mark>2</mark>
+</block>
+<block>
+    <person>Наруто Удзумаки</person>
+    <mark>6</mark>
+</block>
+<block>
+    <person>Игнат Жамойтин</person>
+    <mark>9</mark>
+</block>
+<block>
+    <person>Дань Хэн</person>
+    <mark>2</mark>
+</block>
+</attestation>

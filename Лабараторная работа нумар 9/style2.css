@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-gap: 20px;
+}
+.ninth {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.grid div {
+    border: 2px solid black;
+    text-align: center;
+}
+img {
+    height: 97px;
+    width: 97px;
+}
+.ninth img {
+    height: 217px;
+    width: 217px;
+}
+figure{
+    display: inline-block;
+}

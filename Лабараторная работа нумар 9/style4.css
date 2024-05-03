@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100vh;
+    grid-gap: 5px;
+    grid-template-areas: 
+                "a a a"
+                "b b2 b3"
+                "d d d";
+}
+.grid div {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 18PX;
+}
+.grid div:first-child {
+    text-align: center;
+}

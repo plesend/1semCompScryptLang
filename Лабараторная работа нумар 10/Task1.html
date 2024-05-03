@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-вёрстка и ячейки</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="link.css" rel="stylesheet" media="(min-width: 1280px)">
+    <style>
+      @media (max-width: 768px){
+        h3 {
+          color: red;
+        }
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="headh"><h2>Flexbox Layout in Web Design</h2>
+
+    <div class="menu">
+      <input id="ch" type="checkbox">
+      <label class="menu_btn" for="ch"><span></span></label>
+
+    <div class="menu_item">
+      <label><a href="#div1">Видео</a></label>
+      <label><a href="#div2">Flexbox-верстка</a></label>
+      <label><a href="#div3">Аудио</a></label>
+    </div>
+
+</div>
+
+
+    </div>
+
+    <div class="sideitem"><a name="div1">
+      <video src="bruh.mp4" width="300px" height="180px" controls="controls" preload="auto"></video>
+      <video src="bruh2.mp4" width="300px" height="180px" controls="controls" preload="auto"></video>
+      <video src="bruh3.mp4" width="300px" height="180px" controls="controls" preload="auto"></video></a>
+    </div>
+    <div class="item"> <a name="div2">
+      <h2>Flexbox Layout in Web Design</h2>
+      <p>Flexbox, short for Flexible Box, is a layout model in CSS that provides an efficient and predictable way to arrange items within a container. It's particularly useful for designing responsive and dynamic user interfaces.<br>
+        In a flex container, items can be aligned and justified easily, making it simpler to achieve complex layouts without relying on floats or positioning. The flexbox model works along a main axis (horizontal or vertical) and a cross axis, offering powerful control over the arrangement of elements.
+        <ul>
+          <li><b>Flex Container:</b> The parent element that holds the flex items. To enable the flex container behavior, you set its display property to flex or inline-flex.</li>
+          <li><b>Flex Items: </b>The children of the flex container become flex items. These items can be aligned and ordered within the container.</li>
+          <li><b>Main Axis and Cross Axis: </b>The main axis is the primary axis along which the flex items are laid out. The cross axis is perpendicular to the main axis. The flex-direction property determines the direction of the main axis.</li></p>
+        </ul>
+      </div></a>
+    <div class="sideitem"><a name="div3">
+      <audio controls src="Boy Division   My Chemical Romance.mp3" preload="auto"></audio>
+      <audio controls src="I m Not Okay (I Promise).mp3" preload="auto"></audio>
+      <audio controls src="Teenagers.wav" preload="auto"></audio>
+    </div></a>
+  </div>
+  <div class="begin"><h3>Genshin</h3></div>
+  <div class="block">
+    <img src="photo/1.png">
+    <img src="photo/2.png">
+    <img src="photo/3.png">
+    <img src="photo/4.png">
+    <img src="photo/5.png">
+    <img src="photo/8.png">
+    <img src="photo/9.png">
+    <img src="photo/10.png">
+  </div>
+</body>
+</html>

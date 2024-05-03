@@ -1,0 +1,63 @@
+sekai {
+    background: url(photos/emu.jpg) no-repeat fixed left, 
+                url(photos/haruka.jpg) no-repeat fixed right;
+}
+block {
+    display: block;
+    background-color: whitesmoke;
+    border: pink dotted 5px;
+    width: 400px;
+    height: 160px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 90%;
+}
+titlemmj {
+    text-align: center;
+    display: block;
+    color: #6CCB20;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+titlevbs {
+    text-align: center;
+    display: block;
+    color: #EE1166;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+titleln {
+    text-align: center;
+    display: block;
+    color: #4455DD;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+titleniigo {
+    text-align: center;
+    display: block;
+    color: #884499;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+titlewxs {
+    text-align: center;
+    display: block;
+    color: #FF9900;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+names {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+bandinfo {
+    display: block;
+    text-align: justify;
+    padding: 2px;
+}
